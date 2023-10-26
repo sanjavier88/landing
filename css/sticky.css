@@ -1,0 +1,10 @@
+.sticky {
+    position: sticky;   
+    inset-block-start: 220px;
+    border: 1px solid blue;
+    
+}
+
+.sticky img{
+    max-inline-size: 100%;
+}

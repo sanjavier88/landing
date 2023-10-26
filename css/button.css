@@ -1,0 +1,17 @@
+.button {
+    background: transparent;
+    color: var(--white);
+    font: var(--button);
+    block-size: 52px;
+    inline-size: 260px;
+    border-radius: 8px;
+}
+
+.button-primary {
+    background: var(--black);
+    color: var(--white);
+    font: var(--buttton);
+    block-size: 52px;
+    inline-size: 260px;
+    border-radius: 8px;
+}

@@ -1,0 +1,65 @@
+.ultimo {
+    block-size: 676px;
+    border: 1px solid transparent;
+    background: var(--black);
+    color: var(--white);
+   
+}
+
+.ultimo-conjunto {
+    margin: 0;
+    margin-block-start:300px;
+    margin-block-end:128px;
+    margin-inline-start:64px;
+    display: flex;
+    gap: 128px;
+    /* justify-content: space-between; */
+}
+
+
+.ultimo-primero {
+    /* border: 1px solid white; */
+    margin-inline-start: 64px;
+} 
+
+.ultimo-primero h2{ 
+   /* border: 1px solid red; */
+   font: var(--body1-bold);
+   margin: 0;
+}
+
+.ultimo-primero .date {
+  font: var(--caption);
+  color: var(--grey);
+}
+
+.ultimo-primero .image {
+    /* border: 1px solid red; */
+    margin-block-start: 24px;
+}
+
+.ultimo-segundo p{
+    /* border: 1px solid red; */
+    margin:0;
+}
+
+.ultimo-segundo h3{
+    /* border: 1px solid yellow; */
+    margin:0;
+    font: var(--button);
+}
+
+.ultimo-content {
+    font: var(--body1-regular);
+    color: var(--grey);
+   
+}
+
+.ultimo-tercero p{
+    margin: 0;
+}
+.ultimo-tercero h3{
+    /* border: 1px solid pink; */
+    font: var(--button);
+    margin: 0;
+}

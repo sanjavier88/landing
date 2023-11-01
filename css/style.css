@@ -64,6 +64,18 @@ section {
         --gridTemplateColumns:auto auto 1fr auto;
         /* grid-template-areas: ' phone content '; */
     }
+
+
+    .header-logo {
+        display: block;
+        margin-inline: 20px;
+        margin-block: 24px;
+    }
+
+    .header-primary {
+        display: none;
+    }
+
     .grid {
         display: block;
     }
@@ -72,14 +84,53 @@ section {
         block-size: auto;
         padding-block: 50px;
         grid-row-start: initial;
+       
     }
-
     .press {
         grid-row-start: initial;
-    } 
+        display: flex;
+        flex-direction: column;
+        block-size: 100vh;
+        
+    }
+
+    .press .press-logo{  
+        block-size: 313px; 
+        inline-size: 146px;
+     }
+    
+    .press-logo {
+        
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        /* gap: 24px; */
+        /* margin-inline: 200px; */
+
+    }
+
+    .press-logo img{
+        /* border: 1px solid red; */
+      /* background: red; */
+    }
+
+    .press-image {
+       min-inline-size: 360px;
+       min-block-size: 203px;
+       margin-inline-start: initial;
+      
+    }
+    .press-image img {
+        block-size: 100%;
+    }
 
     .hero-content {
         display: initial;
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
        
     }
 
